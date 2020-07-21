@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control2</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.7/css/unicons.css">
+    <link rel="stylesheet" href="stye.css">
+    <style>
+        .is-invalid {
+          background-image: none;
+         }
+         </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content-buttons">
+			<button disabled class="general user"><i class="uil uil-arrow"></i></button>
+			<button class="general"><i class="uil uil-bold"></i></button>
+			<button class="general font-style"><i class="uil uil-italic"></i></button>
+			<button class="general underlining"><i class="uil uil-underline"></i></button>
+			<button class="general striking"><i class="uil uil-text-strike-through"></i></button>
+			<button class="general left"><i class="uil uil-align-left-justify"></i></button>
+			<button class="general center"><i class="uil uil-align-center"></i></button>
+			<button class="general right"><i class="uil uil-align-right"></i></button>
+
+			<button class="general">
+				<i class="uil uil-text"></i>
+				<i class="uil uil-angle-down"></i>
+				<ul class="delete ulFonFam">
+					<li class="font-family">Arial</li>
+					<li class="font-family">Georgia</li>
+					<li class="font-family">Impact</li>
+					<li class="font-family">Tahoma</li>
+					<li class="font-family">Times New Roman</li>
+					<li class="font-family">Verdana</li>
+				</ul>
+			</button>
+			<button class="general">
+				<i class="uil uil-text-fields"></i>
+				<i class="uil uil-angle-down"></i>
+				<ul class="delete ulFoneS">
+					<li class="font-size">12px</li>
+					<li class="font-size">14px</li>
+					<li class="font-size">16px</li>
+					<li class="font-size">18px</li>
+					<li class="font-size">20px</li>
+					<li class="font-size">22px</li>
+					<li class="font-size">25px</li>
+					<li class="font-size">30px</li>
+				</ul>
+			</button>
+			<button class="general color"><i class="uil uil-palette"></i></button>
+			<button class="general background-color"><i class="uil uil-scenery"></i></button>
+            <button class="general lock"><i class="uil uil-lock"></i></button>
+            <div class="general_second">
+                <button class="btn locked"><i class="uil uil-lock-open-alt"></i></button>
+                <button class="btn tables" data-toggle="modal"  data-target="#modalTbl"><i class="uil uil-table"></i></button>
+                <button class="btn ol" data-toggle="modal"><i class="uil uil-list-ui-alt"></i></button>
+                <button class="btn ul" data-toggle="modal" ><i class="uil uil-list-ul"></i></button>
+
+            </div>
+        </div>
+        <div class="content-text">
+			<p >
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?
+			</p>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?
+			</p>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?
+			</p>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?
+			</p>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?
+			</p>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?
+			</p>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?
+			</p>
+        </div>
+        <div class="alert delete">
+			<div class="alert__content">
+			<div class="choose">
+					Choose text color
+					<button class="cancel"><i class="uil uil-times"></i></button>
+				</div>
+				<div class="colors">
+                    <div class="colors__general-first black" name="black"></div>
+                    <div class="colors__general-first darkgray" name="darkgray"></div>
+					<div class="colors__general-first blue" name="aliceblue"></div>
+					<div class="colors__general-first aqua" name="aqua"></div>
+					<div class="colors__general-first blue" name="blue"></div>
+					<div class="colors__general-first blueviolet" name="blueviolet"></div>
+					<div class="colors__general-first brown" name="brown"></div>
+					<div class="colors__general-first burlywood" name="burlywood"></div>
+					<div class="colors__general-first cadetblue" name="cadetblue"></div>
+					<div class="colors__general-first chartreuse" name="chartreuse"></div>
+					<div class="colors__general-first chocolate" name="chocolate"></div>
+					<div class="colors__general-first coral" name="coral"></div>
+					<div class="colors__general-first darkblue" name="darkblue"></div>
+					<div class="colors__general-first darkcyan" name="darkcyan"></div>
+					<div class="colors__general-first darkgoldenrod" name="darkgoldenrod"></div>
+					<div class="colors__general-first darkgreen" name="darkgreen"></div>
+                    <div class="colors__general-first darkmagenta" name="darkmagenta"></div>
+                    <div class="colors__general-first darkmagenta" name="aquamarine"></div>
+
+				</div>
+			</div>
+    </div>
+    <div class="alert delete">
+        <div class="alert__content">
+            <div class="choose">
+                Choose backgound color or image
+                <button class="cancel"><i class="uil uil-times"></i></button>
+            </div>
+            <div class="tabs">
+                <div class="choose__tabs choose__colors">
+                    Colors
+                </div>
+                <div class="choose__tabs choose__images">
+                    Images
+                </div>
+                <div class="choose__tabs choose__files">
+                    Files
+                </div>
+                <div class="choose__empty">
+                </div>
+            </div>
+            <div class="colors ">
+                <div class="colors__general-second aqua" name="aqua"></div>
+                <div class="colors__general-second aquamarine" name="aquamarine"></div>
+                <div class="colors__general-second blue" name="blue"></div>
+                <div class="colors__general-second blueviolet" name="blueviolet"></div>
+                <div class="colors__general-second brown" name="brown"></div>
+                <div class="colors__general-second burlywood" name="burlywood"></div>
+                <div class="colors__general-second cadetblue" name="cadetblue"></div>
+                <div class="colors__general-second chartreuse" name="chartreuse"></div>
+                <div class="colors__general-second chocolate" name="chocolate"></div>
+                <div class="colors__general-second coral" name="coral"></div>
+                <div class="colors__general-second cornflowerblue" name="cornflowerblue"></div>
+                <div class="colors__general-second darkblue" name="darkblue"></div>
+                <div class="colors__general-second darkcyan" name="darkcyan"></div>
+                <div class="colors__general-second darkgoldenrod" name="darkgoldenrod"></div>
+                <div class="colors__general-second darkgray" name="darkgray"></div>
+                <div class="colors__general-second darkgreen" name="darkgreen"></div>
+                <div class="colors__general-second black" name="black"></div>
+                <div class="colors__general-second darkmagenta" name="darkmagenta"></div>
+            </div>
+            <div class="images delete">
+                <div class="images__general one"></div>
+                <div class="images__general two"></div>
+                <div class="images__general three"></div>
+                <div class="images__general four"></div>
+                <div class="images__general five"></div>
+                <div class="images__general six"></div>
+                <div class="images__general seven"></div>
+                <div class="images__general eight"></div>
+                <div class="images__general nine"></div>
+            </div>
+            <div class="files delete">
+                <form action="#">
+                    <input type="file" class="custom-file-input" required>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert delete">
+        <div class="alert__content">
+            <div class="sign-in-title">
+                Sign in
+            </div>
+            <div class="sign-in-content">
+                <input type="text" class="sign-in-content__enter" placeholder="Login here.." autocomplete="off">
+                <input type="password" class="sign-in-content__enter" placeholder="Password here.." autocomplete="off" >
+                <div class="sign-in-content__value-text"></div>
+                <button class="sign-in-content__btn">Sign in</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="alert delete">
+        <div class="alert__content">
+            <input type="button" class="alert__content-btn alert__content-btn--cancel" value="Cancel">
+            <input type="button" class="alert__content-btn alert__content-btn--sign-out" value="Sign out">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="textarea_block">
+    <form action="#">
+        <textarea id="text_area" rows="4" cols="50" name="text">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium?</p>
+        </textarea>
+    </form>
+
+    <div class="alert delete">
+    <div class="create_table">
+        <a href="#" class="close_table"></a>
+        <div class="table">
+            
+                    <div class="table_1">
+                        <form id="formT">
+                            <table>
+                        <tr>
+                            <td>Count TR:</td>
+                            <td colspan="5"><input type="text" class='count-tr danger' placeholder="Count TR:"></td>
+                        </tr>
+                        <tr>
+                            <td>Count TD:</td>
+                            <td colspan="5"><input type="text" class="count-td danger" placeholder="Count TD:"></td>
+                        </tr>
+                         
+                        <tr>
+                            <td>Width of TD:</td>
+                            <td colspan="5"><input type="text" class="td-width danger" placeholder="Width of TD:"></td>
+                        </tr>
+                            </table>
+                        </form>
+                        <small class="invalid-txt none">
+                            invalid value
+                          </small>
+                    </div>
+                    <div class="table2">
+                        <form action="#">
+                            <table>
+                        <tr>
+                            <td>Height of TD:</td>
+                            <td colspan="5"><input type="text" class="td-height danger" placeholder="Height of TD:"></td>
+                        </tr>
+                        <tr>
+                            <td>Width of border:</td>
+                            <td><input type="text" name="border_width" class="td-border danger" placeholder="Width:"></td>
+                            
+                                
+                              
+                            <td>Type of border:</td>
+                            <td>
+                                <select name="border_type" class="style-sel" >
+                                    <option value="solid">Solid</option>
+                                    <option value="dotted">Dotted</option>
+                                    <option value="dashed">Dashed</option>
+                                    <option value="double">Double</option>
+                                </select>
+                            </td>
+                            <td>Color of border:</td>
+                            <td>
+                                <select name="border_color" class="color-sel" >
+                                    <option value="black">Black</option>
+                                    <option value="red">Red</option>
+                                    <option value="blue">Blue</option>
+                                    <option value="green">Green</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                    </div>
+                           
+                
+        </div>
+        
+                <div class="btn_table">
+                    <button class="reset" name="reset">Reset</button>
+                    <button class="create-table" name="create-table">Create table</button>
+                </div>
+    </div>
+</div>
+
+<div class="alert_ol delete">
+    <a href="#" class="close"></a>
+    <div class="list_ol">
+        <h2 class="textIn">Create OL</h2>
+        <hr>
+        <form action="#">
+            <table>
+                <tr>
+                    <td>Count Li item:</td>
+                    <td colspan="5"><input type="text" class="count_ol danger" placeholder="Type here"></td>
+                </tr>
+                
+            </table>
+            <tr>
+                <td>Type marks of list:</td>
+                    <select name="type_of_marks" class="ol-select">
+                        <option value="circle">Circle</option>
+                        <option value="disc">Disc</option>
+                        <option value="square">Square</option>
+                    </select>
+            </tr>
+            
+            <small class="invalid-txt none">
+                invalid value
+              </small>
+        </form>
+        <div class="btn_table">
+            <button class="reset" name="reset">Reset</button>
+            <button class="create-ol" name="ol_btn">Create ol</button>
+        </div>
+    </div>
+</div>
+
+<div class="alert_ul delete">
+    <a href="#" class="close"></a>
+    <div class="list_ul">
+        <h2 class="textIn">Modal title</h2>
+        <hr>
+        <form action="#">
+            <table>
+                <tr>
+                    <td>Count Li item:</td>
+                    <td colspan="5"><input type="text" class="count_ul danger" placeholder="Type here"></td>
+                </tr>   
+            </table>
+            <tr>
+                <td>Type marks of list:</td>
+                <select name="type_of_marks" class="ul-select">
+                    <option value="circle">Circle</option>
+                    <option value="disc">Disc</option>
+                    <option value="square">Square</option>
+                </select>
+            </tr>
+        </form>
+        <small class="invalid-txt none">
+            invalid value
+          </small>
+        <div class="btn_table">
+            <button class="reset" name="reset">Reset</button>
+            <button class="create-ul" name="ul_btn">Create ul</button>
+        </div>
+    </div>
+</div>
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
